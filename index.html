@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekolojik Kredi Sistemi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>♻️</span><span>Ekolojik Kredi</span>
+        </div>
+        <h1>Ekolojik Kredi Sistemi</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <div class="section">
+                <h2>Bilgiler</h2>
+                <ul>
+                    <li><a href="#" onclick="showPage('ekolojik-kredi')">Ekolojik Kredi Nedir?</a></li>
+                    <li><a href="#" onclick="showPage('hazirlayanlar')">Hazırlayanlar</a></li>
+                    <li><a href="#" onclick="showPage('geri-donusum')">Geri Dönüşüm Nedir?</a></li>
+                    <li><a href="#" onclick="showPage('bize-ulasin')">Bize Ulaşın</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <button onclick="showPage('kayit')">Kayıt Ol</button>
+                <button onclick="showPage('veri-goruntuleme')">Veri Görüntüle</button>
+                <button onclick="showPage('veri-giris')">Veri Girişi</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-content"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
